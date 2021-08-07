@@ -1,7 +1,7 @@
 /*----------SMARTPHONES EN VERTICAL----------*/
-	/*Min-width 320px / Max-width: 1279px*/ 
+	/*Min-width 320px / Max-width: 399px*/ 
 
-@media screen and (min-width: 320px) and (max-width: 1279px) {
+@media screen and (min-width: 320px) and (max-width: 1440px) {
 	/*-----HEADER-----*/
 	.head  {
 		position: fixed;
@@ -38,7 +38,6 @@
 		position: relative;
 		width: 100;
 		height: 10vh;
-		font-size: 4vw;
 		font-weight: bold;
 		color: white;
 	}
@@ -50,7 +49,8 @@
 		bottom: 0;
 		margin: auto;
 		text-align: center;
-		padding-top: 20%;
+		padding-top: 4vh;
+		font-size: 2.5vh;
 	}
 	.li-main ul {
 		display: none;
@@ -74,7 +74,7 @@
 		display: block;
 		height: 8vh;
 		padding: 2.5vh 0.75em;
-		font-size: 1em;
+		font-size: 2.5vh;
 		color: white;
 		text-decoration: none;
 		text-align: center;
@@ -122,10 +122,10 @@
 		bottom: 0;
 		left: 0;
 		margin: auto;
-		margin-top: 10vh;
+		margin-top: 10vw;
 		text-align: center;
 		color: white;
-		font-size: 1.4em;
+		font-size: 7vw;
 	}
 	.banner__h2 {
 		position: absolute;
@@ -135,10 +135,10 @@
 		bottom: 0;
 		left: 0;
 		margin: auto;
-		margin-top: 15vh;
+		margin-top: 17vw;
 		text-align: center;
 		color: white;
-		font-size: 1.1em;
+		font-size: 5vw;
 	}
 	.banner__arrow {
 		display: none;
@@ -296,9 +296,9 @@
 
 
 
-/*--------------------LAPTOPS Y PC´S--------------------*/
-		/*Min-width: 1280px*/
-@media screen and (min-width: 1280px){
+/*----------LAPTOPS Y PC´S----------*/
+		/*Min-width: 801px*/
+@media screen and (min-width: 1441px){
 	/*-----HEADER-----*/
 	.head  {
 		position: fixed;
