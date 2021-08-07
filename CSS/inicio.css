@@ -607,7 +607,7 @@
 		margin: auto;
 		width: 100%;
 		height: 15vh;
-		background-color: #0A1F34;
+		background-color: greenyellow;
 		z-index: 5;
 		font-family: 'Quicksand', sans-serif;
 	}
@@ -914,7 +914,7 @@
 		margin: auto;
 		width: 100%;
 		height: 10vh;
-		background-color: #0A1F34;
+		background-color: red;
 		z-index: 5;
 		font-family: 'Quicksand', sans-serif;
 	}
