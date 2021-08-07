@@ -1,0 +1,1462 @@
+/*----------SMARTPHONES EN VERTICAL----------*/
+	/*Min-width 320px / Max-width: 399px*/ 
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+	/*-----HEADER-----*/
+	.head  {
+		position: fixed;
+		top: 0;
+		margin: auto;
+		width: 100%;
+		height: 10vh;
+		background-color: #0A1F34;
+		z-index: 5;
+		padding: 1vh 0;
+		font-family: 'Quicksand', sans-serif;
+	}
+	nav {
+		position: relative;
+		width: 100%;
+		height: 8vh;
+	}
+	.header__logo {
+		height: 8.5vh;
+		position: relative;
+		display: inline-block;
+		margin-left: 7.5%;
+	}
+	.header__menu {
+		display:inline-block;
+		position: absolute;	
+		width: 40%;
+		right: 0;
+		text-align: center;
+		margin-top: -1vh;
+	}
+	.li-main{
+		display: block;
+		position: relative;
+		width: 100;
+		height: 10vh;
+		padding-top: 3vh;
+		font-size: 1.25em;
+		font-weight: bold;
+		color: white;
+	}
+	#h4mn {
+		display: block;
+		position: relative;
+		height: 10vh;
+	}
+	.li-main ul {
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #0A1F34;
+		color: white;
+		top: 0;
+		margin-top: 10vh;
+	}
+	.header__menu .li-main li {
+		position: relative;
+		display: block;
+		height: 8vh;
+		position: relative;
+		text-align: center;
+		
+	}
+	.header__menu a{
+		position: relative;
+		display: block;
+		height: 8vh;
+		padding: 2.5vh 0.75em;
+		font-size: 1em;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		font-weight: 100;
+	}
+	a i{
+		margin-right: 1vh;
+	}
+
+	/*---EVENTOS HEADER---*/
+	.li-main:hover {
+		background-color: #D4E6F1;
+		color: #0A1F34;
+	}
+	.header__menu .li-main:hover > ul {
+		display: block;
+	}
+	.header__menu a:hover {
+		background-color: #D35400;
+	}
+
+	/*-----BANNER-----*/
+	.div-banner {
+		display: block;
+		z-index: -1;
+		position: relative;
+		margin-top: 10vh;
+		display: block;
+		width: 100%;
+		height: 40vh;
+		background-color: #0A1F34;
+		font-family: 'Roboto', sans-serif;
+	}
+	.banner__img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.33;
+	}
+	.banner__h1 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 10vh;
+		text-align: center;
+		color: white;
+		font-size: 1.4em;
+	}
+	.banner__h2 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 15vh;
+		text-align: center;
+		color: white;
+		font-size: 1.1em;
+	}
+	.banner__arrow {
+		display: none;
+	}
+
+	/*-----TEMAS-----*/
+	.div-temas {
+		display: block;
+		position: relative;
+		width: 100%;;
+		text-align: center;
+		padding-top: 3vh;
+		padding-bottom: 1.5vh;
+	}
+	.div-temas .li-temas1 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas2 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas3 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas4 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas5 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas a{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+		padding: 2.5vh 0.75em;
+		font-size: 2.75vh;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 500;
+		color: #0A1F34;
+		text-decoration: none;
+		background-color: #D4E6F1;
+	}
+	.div-temas a:hover {
+		background-color: #0A1F34;
+		color: white;
+		border-radius: 30px;
+		transition: 0.5s;
+	}	
+
+	/*-----AUTORES-----*/
+	.div-team {
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		padding-top: 3vh;
+		padding-bottom: 4vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: #F4F6F6;
+	}
+	.team__h2 {
+		font-size: 4vh;
+		font-weight: bold;
+	}
+	.team__name {
+		font-size: 3vh;
+	}
+	.team__mail {
+		font-size: 2.5vh;
+		font-weight: 100;
+	}
+
+	/*-----MAESTRA-----*/
+	.teacher {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 25vh;
+		text-align: center;
+		padding-top: 6.5vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: white;
+	}
+
+	/*-----COMENTARIOS-----*/
+	.formulario {
+		display: block;
+		position: relative;
+		width: 100%;
+		padding: 4vh 0;
+		text-align: center;
+		background-color: #0A1F34;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 2.5vh;
+	}
+	.formulario h3 {
+		margin-bottom: 1vh;
+		font-weight: bold;
+	}
+	.formulario input {
+		outline: 0;
+		width: 40vh;
+		height: 1.3em;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+		font-weight: 100;
+	}
+	.formulario textarea {
+		width: 40vh;
+		max-width: 40vh;
+		height: 15vh;
+		max-height: 15vh;
+		outline: 0;
+		font-weight: 100;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+	}
+	.btn-send{
+		width: 10vh;
+		height: 5vh;
+		background-color: white;
+		outline: 0;
+		background-color: #D35400;
+		border: 0;
+		color: white;
+		font-weight: bold;
+	}
+	.btn-send:hover {
+		border: 3px solid #BA4A00;
+	}
+}
+
+
+
+/*----------SMARTPHONES EN HORIZONTAL----------*/
+	/*Min-width: 400px / Max-width: 600px*/
+@media screen and (min-width: 400px) and (max-width: 600px) {
+	/*-----HEADER-----*/
+	.head  {
+		position: fixed;
+		top: 0;
+		margin: auto;
+		width: 100%;
+		height: 15vh;
+		background-color: #0A1F34;
+		z-index: 5;
+		font-family: 'Quicksand', sans-serif;
+	}
+	nav {
+		position: relative;
+		width: 100%;
+		height: 15vh;
+	}
+	.header__logo {
+		height: 15vh;
+		position: relative;
+		display: inline-block;
+		margin-left: 3%;
+	}
+	.header__menu {
+		display:inline-block;
+		position: absolute;	
+		width: 25%;
+		right: 0;
+		text-align: center;
+		background-color: #0A1F34;
+	}
+	.li-main{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 15vh;
+		padding-top: 5vh;
+		font-size: 1em;
+		font-weight: bold;
+		color: white;
+	}
+	#h4mn {
+		height: 15vh;
+		display: block;
+		position: relative;
+		margin-bottom: 0;
+	}
+	.li-main ul {
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #0A1F34;
+		color: white;
+		top: 0;
+		margin-top: 15vh;
+	}
+	.header__menu .li-main li {
+		position: relative;
+		display: block;
+		height: 15vh;
+		position: relative;
+		text-align: center;
+		
+	}
+	.header__menu a{
+		position: relative;
+		display: block;
+		height: 15vh;
+		padding: 2.5vh 0.75em;
+		font-size: 1em;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		font-weight: 100;
+	}
+	a i{
+		margin-right: 1vh;
+	}
+
+	/*---EVENTOS HEADER---*/
+	.li-main:hover {
+		background-color: #D4E6F1;
+		color: #0A1F34;
+	}
+	.header__menu .li-main:hover > ul {
+		display: block;
+	}
+	.header__menu a:hover {
+		background-color: #D35400;
+	}
+
+	/*-----BANNER-----*/
+	.div-banner {
+		display: block;
+		z-index: -1;
+		position: relative;
+		margin-top: 10vh;
+		display: block;
+		width: 100%;
+		height: 90vh;
+		background-color: #0A1F34;
+		font-family: 'Roboto', sans-serif;
+	}
+	.banner__img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.33;
+	}
+	.banner__h1 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 25vh;
+		text-align: center;
+		color: white;
+		font-size: 1.4em;
+	}
+	.banner__h2 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 35vh;
+		text-align: center;
+		color: white;
+		font-size: 1.1em;
+	}
+	.banner__arrow {
+		display: block;
+		position: absolute;
+		width: 25%;
+		height: 15%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		margin-bottom: 5vh;
+	}
+
+	/*-----TEMAS-----*/
+	.div-temas {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 60vh;
+		text-align: center;
+	}
+	.div-temas .li-temas1 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 2%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas2 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 21.4%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas3 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 40.8%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas4 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 60.2%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas5 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 79.6%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas a{
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: 55vh;
+		margin-top: 2.5vh;
+		padding: 2.5vh 0.75em;
+		font-size: 2.5vh;
+		font-family: 'Quicksand', sans-serif;
+		color: #0A1F34;
+		text-decoration: none;
+		background-color: #D4E6F1;
+	}
+	.div-temas a:hover {
+		background-color: #0A1F34;
+		color: white;
+		border-radius: 30px;
+		transition: 0.5s;
+	}	
+
+	/*-----AUTORES-----*/
+	.div-team {
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		padding-top: 3vh;
+		padding-bottom: 4vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: #F4F6F6;
+	}
+	.team__h2 {
+		font-size: 4vh;
+		font-weight: bold;
+	}
+	.team__name {
+		font-size: 3vh;
+	}
+	.team__mail {
+		font-size: 2.5vh;
+		font-weight: 100;
+	}
+
+	/*-----MAESTRA-----*/
+	.teacher {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 25vh;
+		text-align: center;
+		padding-top: 6.5vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: white;
+	}
+
+	/*-----COMENTARIOS-----*/
+	.formulario {
+		display: block;
+		position: relative;
+		width: 100%;
+		padding: 4vh 0;
+		text-align: center;
+		background-color: #0A1F34;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 2.5vh;
+	}
+	.formulario h3 {
+		margin-bottom: 1vh;
+		font-weight: bold;
+	}
+	.formulario input {
+		outline: 0;
+		width: 40%;
+		height: 1.3em;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+		font-weight: 100;
+	}
+	.formulario textarea {
+		width: 40%;
+		max-width: 40%;
+		height: 15vh;
+		max-height: 15vh;
+		outline: 0;
+		font-weight: 100;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+	}
+	.btn-send{
+		width: 10%;
+		height: 5vh;
+		background-color: white;
+		outline: 0;
+		background-color: #D35400;
+		border: 0;
+		color: white;
+		font-weight: bold;
+	}
+	.btn-send:hover {
+		border: 3px solid #BA4A00;
+	}
+}
+
+
+
+/*----------TABLETS----------*/
+	/*Min-width: 601px / Max-width: 800px*/
+@media screen and (min-width: 601px) and (max-width: 800px) {
+	/*-----HEADER-----*/
+	.head  {
+		position: fixed;
+		top: 0;
+		margin: auto;
+		width: 100%;
+		height: 15vh;
+		background-color: #0A1F34;
+		z-index: 5;
+		font-family: 'Quicksand', sans-serif;
+	}
+	nav {
+		position: relative;
+		width: 100%;
+		height: 15vh;
+	}
+	.header__logo {
+		height: 15vh;
+		position: relative;
+		display: inline-block;
+		margin-left: 3%;
+	}
+	.header__menu {
+		display:inline-block;
+		position: absolute;	
+		width: 25%;
+		right: 0;
+		text-align: center;
+		background-color: #0A1F34;
+	}
+	.li-main{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 15vh;
+		padding-top: 7vh;
+		text-align: center;
+		font-size: 1em;
+		font-weight: bold;
+		color: white;
+	}
+	#h4mn {
+		height: 15vh;
+		display: block;
+		position: relative;
+		margin-bottom: 0;
+	}
+	.li-main ul {
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #0A1F34;
+		color: white;
+		top: 0;
+		margin-top: 15vh;
+	}
+	.header__menu .li-main li {
+		position: relative;
+		display: block;
+		height: 15vh;
+		position: relative;
+		text-align: center;
+		
+	}
+	.header__menu a{
+		position: relative;
+		display: block;
+		height: 15vh;
+		padding: 5vh 0.75em;
+		font-size: 1em;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		font-weight: 100;
+	}
+	a i{
+		margin-right: 1vh;
+	}
+
+	/*---EVENTOS HEADER---*/
+	.li-main:hover {
+		background-color: #D4E6F1;
+		color: #0A1F34;
+	}
+	.header__menu .li-main:hover > ul {
+		display: block;
+	}
+	.header__menu a:hover {
+		background-color: #D35400;
+	}
+
+	/*-----BANNER-----*/
+	.div-banner {
+		display: block;
+		z-index: -1;
+		position: relative;
+		margin-top: 10vh;
+		display: block;
+		width: 100%;
+		height: 50vh;
+		background-color: #0A1F34;
+		font-family: 'Roboto', sans-serif;
+	}
+	.banner__img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.33;
+	}
+	.banner__h1 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 15vh;
+		text-align: center;
+		color: white;
+		font-size: 2em;
+	}
+	.banner__h2 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 20vh;
+		text-align: center;
+		color: white;
+		font-size: 1.6em;
+	}
+	.banner__arrow {
+		display: block;
+		position: absolute;
+		width: 25%;
+		height: 15%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		margin-bottom: 5vh;
+	}
+
+	/*-----TEMAS-----*/
+	.div-temas {
+		display: block;
+		position: relative;
+		width: 100%;;
+		text-align: center;
+		padding-top: 3vh;
+		padding-bottom: 1.5vh;
+	}
+	.div-temas .li-temas1 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas2 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas3 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas4 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas .li-temas5 {
+		position: relative;
+		display: block;
+		margin-left: 2.5%;
+		width: 95%;
+		height: 30vh;
+		margin-bottom: 1vh;
+	}
+	.div-temas a{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+		padding: 2.5vh 0.75em;
+		font-size: 2.75vh;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 500;
+		color: #0A1F34;
+		text-decoration: none;
+		background-color: #D4E6F1;
+	}
+	.div-temas a:hover {
+		background-color: #0A1F34;
+		color: white;
+		border-radius: 30px;
+		transition: 0.5s;
+	}	
+
+	/*-----AUTORES-----*/
+	.div-team {
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		padding-top: 3vh;
+		padding-bottom: 4vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: #F4F6F6;
+	}
+	.team__h2 {
+		font-size: 4vh;
+		font-weight: bold;
+	}
+	.team__name {
+		font-size: 3vh;
+	}
+	.team__mail {
+		font-size: 2.5vh;
+		font-weight: 100;
+	}
+
+	/*-----MAESTRA-----*/
+	.teacher {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 25vh;
+		text-align: center;
+		padding-top: 6.5vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: white;
+	}
+
+	/*-----COMENTARIOS-----*/
+	.formulario {
+		display: block;
+		position: relative;
+		width: 100%;
+		padding: 4vh 0;
+		text-align: center;
+		background-color: #0A1F34;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 2.5vh;
+	}
+	.formulario h3 {
+		margin-bottom: 1vh;
+		font-weight: bold;
+	}
+	.formulario input {
+		outline: 0;
+		width: 40%;
+		height: 1.3em;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+		font-weight: 100;
+	}
+	.formulario textarea {
+		width: 40%;
+		max-width: 40%;
+		height: 15vh;
+		max-height: 15vh;
+		outline: 0;
+		font-weight: 100;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+	}
+	.btn-send{
+		width: 15%;
+		height: 5vh;
+		background-color: white;
+		outline: 0;
+		background-color: #D35400;
+		border: 0;
+		color: white;
+		font-weight: bold;
+	}
+	.btn-send:hover {
+		border: 3px solid #BA4A00;
+	}
+}
+
+
+
+/*----------LAPTOPS Y PC´S----------*/
+		/*Min-width: 801px*/
+@media screen and (min-width: 801px){
+	/*-----HEADER-----*/
+	.head  {
+		position: fixed;
+		top: 0;
+		margin: auto;
+		width: 100%;
+		height: 10vh;
+		background-color: #0A1F34;
+		z-index: 5;
+		font-family: 'Quicksand', sans-serif;
+	}
+	nav {
+		position: relative;
+		width: 100%;
+		height: 10vh;
+	}
+	.header__logo {
+		height: 10vh;
+		position: relative;
+		display: inline-block;
+		margin-left: 1%;
+	}
+	.header__menu {
+		display: inline-block;
+		position: absolute;
+		height: 8vh;
+		right: 0;
+		margin-right: .5%;
+	}
+	.header__menu li {
+		position: relative;
+		display: inline-block;
+		height: 8vh;
+		position: relative;
+		text-align: center;
+	}
+	.header__menu a{
+		position: relative;
+		display: inline-block;
+		height: 8vh;
+		margin-top: 1vh;
+		padding: 2.5vh 0.75em;
+		font-size: 1.25em;
+		font-family: 'Quicksand', sans-serif;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+	#h4mn {
+		display: none;
+	}
+
+
+
+	a i{
+		margin-right: 1vh;
+	}
+
+	/*---EVENTOS HEADER---*/
+
+	.header__menu a:hover {
+		background-color: #D35400;
+	}
+
+	/*-----BANNER-----*/
+	.div-banner {
+		display: block;
+		z-index: -1;
+		position: relative;
+		margin-top: 10vh;
+		display: block;
+		width: 100%;
+		height: 90vh;
+		background-color: #0A1F34;
+		font-family: 'Roboto', sans-serif;
+	}
+	.banner__img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.33;
+	}
+	.banner__h1 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 25vh;
+		text-align: center;
+		color: white;
+		font-size: 3em;
+	}
+	.banner__h2 {
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		margin-top: 35vh;
+		text-align: center;
+		color: white;
+		font-size: 2.25em;
+	}
+	.banner__arrow {
+		display: block;
+		position: absolute;
+		width: 25%;
+		height: 15%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		margin-bottom: 5vh;
+	}
+
+	/*-----TEMAS-----*/
+	.div-temas {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 60vh;
+		text-align: center;
+	}
+	.div-temas .li-temas1 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 2%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas2 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 21.4%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas3 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 40.8%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas4 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 60.2%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas .li-temas5 {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		margin-left: 79.6%;
+		width: 18.4%;
+		height: 100%;
+	}
+	.div-temas a{
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: 55vh;
+		margin-top: 2.5vh;
+		padding: 2.5vh 0.75em;
+		font-size: 2.5vh;
+		font-family: 'Quicksand', sans-serif;
+		text-decoration: none;
+		background-color: #D4E6F1;
+		color: #0A1F34;
+	}
+	.div-temas a:hover {
+		color: white;
+		background-color: #0A1F34;
+		border-radius: 30px;
+		transition: 0.5s;
+	}	
+
+	/*-----AUTORES-----*/
+	.div-team {
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		padding-top: 3vh;
+		padding-bottom: 4vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: #F4F6F6;
+	}
+	.team__h2 {
+		font-size: 4vh;
+		font-weight: bold;
+	}
+	.team__name {
+		font-size: 3vh;
+	}
+	.team__mail {
+		font-size: 2.5vh;
+		font-weight: 100;
+	}
+
+	/*-----MAESTRA-----*/
+	.teacher {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 25vh;
+		text-align: center;
+		padding-top: 6.5vh;
+		font-family: 'Roboto', sans-serif;
+		color: #0A1F34;
+		background-color: white;
+	}
+
+	/*-----COMENTARIOS-----*/
+	.formulario {
+		display: block;
+		position: relative;
+		width: 100%;
+		padding: 4vh 0;
+		text-align: center;
+		background-color: #0A1F34;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 2.5vh;
+	}
+	.formulario h3 {
+		margin-bottom: 1vh;
+		font-weight: bold;
+	}
+	.formulario input {
+		outline: 0;
+		width: 40%;
+		height: 1.3em;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+		font-weight: 100;
+	}
+	.formulario textarea {
+		width: 40%;
+		max-width: 40%;
+		height: 15vh;
+		max-height: 15vh;
+		outline: 0;
+		font-weight: 100;
+		margin-top: 0.3vh;
+		margin-bottom: 1vh;
+	}
+	.btn-send{
+		width: 10%;
+		height: 5vh;
+		background-color: white;
+		outline: 0;
+		background-color: #D35400;
+		border: 0;
+		color: white;
+		font-weight: bold;
+	}
+	.btn-send:hover {
+		border: 3px solid #BA4A00;
+	}
+}
+
+
+
+
+/*--------------------GENERAL--------------------*/
+/*-----HEADER-----
+.head  {
+	position: fixed;
+	top: 0;
+	margin: auto;
+	width: 100%;
+	height: 10vh;
+	background-color: #0A1F34;
+	z-index: 5;
+}
+nav {
+	width: 100%;
+	height: 8vh;
+	padding-left: .5%;
+}
+.header__logo {
+	height: 10vh;
+	position: relative;
+	display: inline-block;
+}
+.header__menu {
+	display: inline-block;
+	position: absolute;
+	height: 8vh;
+	right: 0;
+	margin-right: .5%;
+}
+.header__menu li {
+	position: relative;
+	display: inline-block;
+	height: 8vh;
+	position: relative;
+	text-align: center;
+}
+.header__menu a{
+	position: relative;
+	display: inline-block;
+	height: 8vh;
+	margin-top: 1vh;
+	padding: 2.5vh 0.75em;
+	font-size: 1.25em;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+		
+}
+a i{
+	margin-right: 0.5vw;
+}
+
+/*-----EVENTOS HEADER-----
+.head li a:hover {
+	background-color: #D35400;
+	font-weight: bold;
+}
+
+/*-----BANNER-----
+.div-banner {
+	display: block;
+	z-index: -1;
+	position: relative;
+	margin-top: 10vh;
+	display: block;
+	width: 100%;
+	height: 90vh;
+	background-color: #0A1F34;
+	font-family: 'Roboto', sans-serif;
+}
+.banner__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.33;
+}
+.banner__h1 {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	margin-top: 10vw;
+	text-align: center;
+	color: white;
+	font-size: 2.5em;
+}
+.banner__h2 {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	margin-top: 15.5vw;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+.banner__arrow {
+	display: block;
+	position: absolute;
+	width: 20%;
+	height: 15%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-bottom: 5vh;
+}
+/*-----INTEGRANTES-----
+.div-team {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	font-family: 'Roboto', sans-serif;
+	color: #0A1F34;
+	background-color: #F4F6F6;
+}
+.team__h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+.team__name {
+	font-size: 1.6em;
+}
+.team__mail {
+	font-size: 1.2em;
+	font-weight: 100;
+}
+.teacher {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 25vh;
+	text-align: center;
+	padding-top: 6.5vh;
+	font-family: 'Roboto', sans-serif;
+	color: #0A1F34;
+	background-color: white;
+}
+
+/*-----TEMAS-----
+.div-temas {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+}
+.div-temas .li-temas1 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 10.5%;
+	width: 15%;
+	height: 100%;
+	word-wrap: break-word;
+}
+.div-temas .li-temas2 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 26.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas3 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 42.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas4 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 58.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas .li-temas5 {
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	margin-left: 74.5%;
+	width: 15%;
+	height: 100%;
+}
+.div-temas a{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 40vh;
+	padding: 2.5vh 0.75em;
+	font-size: 1vw;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	text-decoration: none;
+	background-color: #0A1F34;
+	margin-top: 5vh;
+}
+.div-temas a:hover {
+	background-color: #D35400;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+
+
+/*-----COMENTARIOS-----
+.formulario {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 50%;
+	padding-top: 4vh;
+	text-align: center;
+	background-color: #0A1F34;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+}
+.formulario h3 {
+	margin-bottom: 1.25vh;
+	font-weight: bold;
+}
+.formulario input {
+	outline: 0;
+	width: 25%;
+	height: 1.3em;
+	margin-top: 0.3vh;
+	margin-bottom: 1.25vh;
+	font-weight: 100;
+}
+.formulario textarea {
+	width: 25%;
+	max-width: 25%;
+	height: 15vh;
+	max-height: 15vh;
+	outline: 0;
+	font-weight: 100;
+	margin-top: 0.3vh;
+	margin-bottom: 1.25vh;
+}
+.btn-send{
+	width: 7.5%;
+	height: 5vh;
+	background-color: white;
+	outline: 0;
+	background-color: #D35400;
+	border: 0;
+	color: white;
+	font-weight: bold;
+}
+.btn-send:hover {
+	border: 3px solid #BA4A00;
+}
+
+
+
+
