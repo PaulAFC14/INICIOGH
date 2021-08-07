@@ -1,7 +1,7 @@
 /*----------SMARTPHONES EN VERTICAL----------*/
-	/*Min-width 320px / Max-width: 399px*/ 
+	/*Min-width 320px / Max-width: 1279px*/ 
 
-@media screen and (min-width: 320px) and (max-width: 1440px) {
+@media screen and (min-width: 320px) and (max-width: 1279px) {
 	/*-----HEADER-----*/
 	.head  {
 		position: fixed;
@@ -38,15 +38,19 @@
 		position: relative;
 		width: 100;
 		height: 10vh;
-		padding-top: 3vh;
-		font-size: 1.25em;
+		font-size: 4vw;
 		font-weight: bold;
 		color: white;
 	}
 	#h4mn {
-		display: block;
-		position: relative;
-		height: 10vh;
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		text-align: center;
+		padding-top: 20%;
 	}
 	.li-main ul {
 		display: none;
@@ -292,9 +296,9 @@
 
 
 
-/*----------LAPTOPS Y PC´S----------*/
-		/*Min-width: 801px*/
-@media screen and (min-width: 1441px){
+/*--------------------LAPTOPS Y PC´S--------------------*/
+		/*Min-width: 1280px*/
+@media screen and (min-width: 1280px){
 	/*-----HEADER-----*/
 	.head  {
 		position: fixed;
@@ -337,7 +341,7 @@
 		height: 8vh;
 		margin-top: 1vh;
 		padding: 2.5vh 0.75em;
-		font-size: 1.25em;
+		font-size: 2.5vh;
 		font-family: 'Quicksand', sans-serif;
 		color: white;
 		text-decoration: none;
@@ -388,7 +392,7 @@
 		margin-top: 25vh;
 		text-align: center;
 		color: white;
-		font-size: 3em;
+		font-size: 6vh;
 	}
 	.banner__h2 {
 		position: absolute;
@@ -401,7 +405,7 @@
 		margin-top: 35vh;
 		text-align: center;
 		color: white;
-		font-size: 2.25em;
+		font-size: 4vh;
 	}
 	.banner__arrow {
 		display: block;
