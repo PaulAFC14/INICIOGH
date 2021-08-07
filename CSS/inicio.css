@@ -1,7 +1,7 @@
 /*----------SMARTPHONES EN VERTICAL----------*/
 	/*Min-width 320px / Max-width: 399px*/ 
 
-@media screen and (min-width: 320px) and (max-width: 1440 {
+@media screen and (min-width: 320px) and (max-width: 1440px) {
 	/*-----HEADER-----*/
 	.head  {
 		position: fixed;
@@ -294,7 +294,7 @@
 
 /*----------LAPTOPS Y PC´S----------*/
 		/*Min-width: 801px*/
-@media screen and (min-width: 1441{
+@media screen and (min-width: 1441px){
 	/*-----HEADER-----*/
 	.head  {
 		position: fixed;
