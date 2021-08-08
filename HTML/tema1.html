@@ -6,9 +6,9 @@
 
 	<!--ESTILOS-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="CSS/tema1.css">
-	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/tema1.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/font-awesome.min.css">
 
 	<!--FUENTES-->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -20,15 +20,18 @@
 	<!--HEADER---------------------------------------->
 	<div class="head">
 		<nav>
-			<a href="../inicio.html"><img src="IMG/logo.png"  class="header__logo"></a>  <!--IMG DEL LOGO-->
+			<a href="../index.html"><img src="../IMG/logo.png"  class="header__logo"></a>  <!--IMG DEL LOGO-->
 			<div class="header__menu">
-				<ol>  <!--LISTA DE TEMAS(LINKS)-->
-					<li><a href="tema1.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 1</a></li>
-					<li><a href="tema2.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 2</a></li>
-					<li><a href="tema3.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 3</a></li>
-					<li><a href="tema4.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 4</a></li>
-					<li><a href="tema5.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 5</a></li>
-				</ol>
+				<li class="li-main">
+					<h4 id="h4mn">MENÚ</h4>
+					<ul>  <!--LISTA DE TEMAS(LINKS)-->
+						<li><a href="tema1.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 1</a></li>
+						<li><a href="tema2.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 2</a></li>
+						<li><a href="tema3.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 3</a></li>
+						<li><a href="tema4.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 4</a></li>
+						<li><a href="tema5.html"><i class="fa fa-book" aria-hidden="true"></i>Tema 5</a></li>
+					</ul>
+				</li>	
 			</div>
 		</nav>
 	</div>
@@ -40,7 +43,7 @@
 
 		<!--SUBTEMA 1---------------------------------------->
 		<div class="subtema1">
-			<img src="IMG/T1/auditoria_admin.jpg" id="img1-1">
+			<img src="../IMG/T1/auditoria_admin.jpg" id="img1-1">
 			<div class="st1">
 				<h2>Auditoria administrativa</h2>
 				<p>
@@ -97,7 +100,7 @@
 		<!--SUBTEMA 2---------------------------------------->
 		<div class="subtema2">
 			<h2 id="h2__2-1">Costos y calidad</h2>
-			<img src="IMG/T1/costos_calidad.jpg" id="img2-1">
+			<img src="../IMG/T1/costos_calidad.jpg" id="img2-1">
 			<div class="st2">
 				<h2>¿Qué son costos de calidad?</h2>
 				<p>
@@ -105,8 +108,8 @@
 				</p>
 			</div>
 
-			<div class="st2">
-				<h2>Clasificación de los costos de calidad</h2>
+			<div class="st2k">
+				<h2 id="cc2">Clasificación de los costos de calidad</h2>
 				<div id="st2-li1">
 					<h2 id="h2-li">Costos de prevención</h2>
 					<li id="li-box1">Control de procesos.</li>
@@ -126,7 +129,7 @@
 					<li id="li-box1">Rediseños del producto o del proceso.</li>
 				</div>
 				<div id="st2-li4">
-					<h2 id="h2-li">Costos por fallas internas</h2>
+					<h2 id="h2-li">Costos por fallas externas</h2>
 					<li id="li-box1">Atención al cliente.</li>
 					<li id="li-box1">Manejo y solución de quejas.</li>
 					<li id="li-box1">Servicio de garantía, reparaciones y reemplazos.</li>
@@ -145,7 +148,7 @@
 		<!--SUBTEMA3---------------------------------------->	
 		<div class="subtema3">
 			<h2 class="h2__3-1">Control del tiempo presupuestario</h2>
-			<img src="IMG/T1/budget.jpg" class="img3-1">
+			<img src="../IMG/T1/budget.jpg" class="img3-1">
 			<div class="st3">
 				<h2>¿Qué es un presupuesto?</h2>
 				<p>
@@ -177,5 +180,29 @@
 			</div>
 		</div>
 	</div>
+
+
+	<form name="contact" method="POST" data-netlify="true" class="formulario">
+		<h3>Comentarios</h3>
+		<p>
+		    <label class="lb-name">Nombre completo</label>
+		    <br>
+		    <input type="text" name="Nombre completo" />   
+		</p>
+		<p>
+		   	<label class="lb-email">Email</label> 
+		   	<br>
+		   	<input type="email" name="Email" />
+		</p>
+		<p>
+		   	<label class="lb-coment">Comentario</label> 
+		   	<br>
+		   	<textarea name="Comentario" ></textarea>
+		   	<br>
+		</p>
+		<p>
+		    <button type="submit" class="btn-send">Enviar</button>
+		</p>
+	</form>	
 </body>
 </html>
